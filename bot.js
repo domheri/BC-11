@@ -150,7 +150,7 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : *{prefix}bc
+            برودكاست عادي : ${prefix}bc
             صحاب بوت هو DOM HERO
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
