@@ -152,8 +152,8 @@ client.on("message", async message => {
 
             برودكاست عادي : *{prefix}bc
             صحاب بوت هو DOM HERO
-            معلومات عن السيرفر : *{prefix}server
-            برودكاست للأونلاين فقط : *{prefix}bco
+            معلومات عن السيرفر : ${prefix}server
+            برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             رابط سيرفر الدعم الفني : https://discord.gg/WKxczE
             **`);
