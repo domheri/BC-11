@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "!";
+const prefix = "&";
 
 
 
@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$bc | Broadcast bot `,"http://twitch.tv/Death Shop")
+client.user.setGame(`Broadcast bot| Arab Ghost `,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -150,10 +150,10 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : !{prefix}bc
+            برودكاست عادي : &{prefix}bc
             صحاب بوت هو DOM HERO
-            معلومات عن السيرفر : !{prefix}server
-            برودكاست للأونلاين فقط : !{prefix}bco
+            معلومات عن السيرفر : &{prefix}server
+            برودكاست للأونلاين فقط : &{prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             رابط سيرفر الدعم الفني : https://discord.gg/WKxczE
             **`);
